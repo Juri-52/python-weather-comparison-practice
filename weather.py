@@ -69,4 +69,10 @@ def get_weather_data(latitude, longitude):
     }
 
 
-# TODO: 取得済みの2都市の気温を比較する関数を作る。
+def compare_temperatures(first_temperature, second_temperature):
+    difference = abs(first_temperature - second_temperature)
+    if first_temperature > second_temperature:
+        return "first", difference
+    if second_temperature > first_temperature:
+        return "second", difference
+    return "same", difference
