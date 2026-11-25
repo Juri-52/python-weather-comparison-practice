@@ -39,7 +39,7 @@ python3 -m venv .venv
 | Windows | `.\.venv\Scripts\python.exe cli.py` | `.\.venv\Scripts\python.exe gui.py` |
 | macOS | `.venv/bin/python cli.py` | `.venv/bin/python gui.py` |
 
-現在のPythonファイルには作業用のTODOがあり、アプリの機能はまだ実装されていません。実装前に起動してもメニューやウィンドウは表示されません。完成後の起動方法は次のとおりです。
+現在はコンソール版の1都市の天気取得を実装しています。気温比較とGUIは未実装です。完成後の起動方法は次のとおりです。
 
 ## 操作方法と実行例
 
